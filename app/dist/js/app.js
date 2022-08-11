@@ -1,4 +1,4 @@
-import { NegociacaoController } from "./controllers/NegociacaoController.js";
+import { NegociacaoController } from "./src/controllers/NegociacaoController.js";
 const controller = new NegociacaoController();
 const form = document.querySelector(".form");
 if (form) {
