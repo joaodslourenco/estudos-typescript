@@ -17,3 +17,4 @@ export class Negociacoes {
 }
 const negociacoes = new Negociacoes();
 negociacoes.lista();
+//# sourceMappingURL=negociacoes.js.map

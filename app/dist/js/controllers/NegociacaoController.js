@@ -79,3 +79,4 @@ __decorate([
     logarTempoDeExecucao()
 ], NegociacaoController.prototype, "adiciona", null);
 export { NegociacaoController };
+//# sourceMappingURL=NegociacaoController.js.map
