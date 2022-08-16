@@ -39,6 +39,9 @@ class NegociacaoController {
         this.negociacoesView.update(this.negociacoes);
         this.mensagemView.update("Negociação adicionada com sucesso.");
     }
+    importaDados() {
+        alert("oi");
+    }
     ehDiaUtil(data) {
         return (data.getDay() > DiasDaSemana.DOMINGO &&
             data.getDay() < DiasDaSemana.SABADO);

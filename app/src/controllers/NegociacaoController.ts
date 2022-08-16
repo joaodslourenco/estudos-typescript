@@ -51,6 +51,10 @@ class NegociacaoController {
     this.mensagemView.update("Negociação adicionada com sucesso.");
   }
 
+  importaDados(): void {
+    alert("oi");
+  }
+
   private ehDiaUtil(data: Date) {
     return (
       data.getDay() > DiasDaSemana.DOMINGO &&
