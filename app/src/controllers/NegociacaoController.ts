@@ -2,6 +2,7 @@ import { domInjector } from "../decorators/domInjector.js";
 import { inspector } from "../decorators/inspector.js";
 import { logarTempoDeExecucao } from "../decorators/logarTempoDeExecucao.js";
 import { DiasDaSemana } from "../enums/diaDaSemana.js";
+import { NegociacaoDoDia } from "../interfaces/negociacaoDoDia.js";
 import { Negociacao } from "../models/negociacao.js";
 import { Negociacoes } from "../models/negociacoes.js";
 import { MensagemView } from "../views/mensagem-view.js";
@@ -54,7 +55,7 @@ class NegociacaoController {
   public importaDados(): void {
     fetch("http://localhost:8080/dados")
       .then((res) => res.json())
-      .then((dados: any[]) => {
+      .then((dados: NegociacaoDoDia[]) => {
         return dados.map((dadoDeHoje) => {
           return new Negociacao(
             new Date(),
