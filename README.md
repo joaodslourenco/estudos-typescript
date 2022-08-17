@@ -2,7 +2,11 @@
 
 Typescript é um superset do JavaScript, ou seja, ele acrescenta uma série de funcionalidades ao Javascript com objetivo de tornar o desenvolvimento mais refinado. A existência do Typescript se justifica pelo fato de que o Javascript é uma linguagem dinamicamente tipada, o que possibilita que muitos erros relacionados à tipagem possam passar despercebidos no momento do desenvolvimento, sendo percebidos somente no ambiente de execução dos projetos.
 
-Como benefícios da utilização da linguagem, podemos citar: o feedback de erros no momento do desenvolvimento, o que evita bugs em produção; autocomplete da linguagem, posto que o uso de interfaces e tipos possibilita que a IDE identifique as propriedades e métodos das variáveis utilizadas; tipagem e funcionalidades avançadas de classes, que possibilitam o uso de encapsulamento, herança, abstração e polimorfismo, com vistas a permitir o desenvolvimento orientado a objetos;
+Como benefícios da utilização da linguagem, podemos citar: 
+* o feedback de erros no momento do desenvolvimento, o que evita bugs em produção; 
+* autocomplete da linguagem, posto que o uso de interfaces e tipos possibilita que a IDE identifique as propriedades e métodos das variáveis utilizadas; 
+* tipagem e funcionalidades avançadas de classes, que possibilitam o uso de encapsulamento, herança, abstração e polimorfismo, com vistas a permitir o desenvolvimento orientado a objetos;
+
 É importante destacar que o Typescript não substitui o Javascript, mas tão somente adiciona uma camada que permite uma melhor experiência de desenvolvimento. Dessa forma, precisamos que o código TypeScript seja compilado e transformado para Javascript, que é a linguagem utilizada pelos navegadores web. Isso é feito através do compilador que o próprio Typescript traz consigo e pode ser configurado através do arquivo tsconfig.json, na raiz do seu projeto.
 
 Abaixo, segue uma sugestão de configurações para seu compilador:
