@@ -1,6 +1,6 @@
-# Estudos Typescript
+# Estudos TypeScript
 
-Typescript é um superset do JavaScript, ou seja, ele acrescenta uma série de funcionalidades ao Javascript com objetivo de tornar o desenvolvimento mais refinado. A existência do Typescript se justifica pelo fato de que o Javascript é uma linguagem dinamicamente tipada, o que possibilita que muitos erros relacionados à tipagem possam passar despercebidos no momento do desenvolvimento, sendo percebidos somente no ambiente de execução dos projetos.
+TypeScript é um superset do Javascript, ou seja, ele acrescenta uma série de funcionalidades ao Javascript com objetivo de tornar o desenvolvimento mais refinado. A existência do Typescript se justifica pelo fato de que o Javascript é uma linguagem dinamicamente tipada, o que possibilita que muitos erros relacionados à tipagem possam passar despercebidos no momento do desenvolvimento, sendo percebidos somente no ambiente de execução dos projetos.
 
 Como benefícios da utilização da linguagem, podemos citar: 
 * o feedback de erros no momento do desenvolvimento, o que evita bugs em produção; 
@@ -56,7 +56,12 @@ O modificador static é aplicado quando desejamos que um método de uma classe p
 ## Outras funcionalidades Typescript:
 
 ### Interfaces
+Interfaces descrevem a estrutura do objeto, o que significa que descreve como o objeto deve se parecer. No TypeScript, uma interface contém apenas a definição de métodos e propriedades, não sua implementação. É a funcionalidade da classe que realiza a conexão entre a interface fornecendo a conexão com todos os parâmetros da interface. Informamos ao Typescript que uma classe deve observar o "contrato" de uma interface usando o modificador "implements" na declaração da classe.
 
-### Generics
+### Enums
+Enums permitem que um desenvolvedor defina um conjunto de constantes nomeadas, podendo ser enumerações numéricas ou baseadas em strings.
+
+### Decorators
+Decorators são funções que encapsulam outras funções, permitindo o reaproveitamento de código globalmente. Podem ser usadas em classes, métodos, propriedades ou parâmetros.
 
 
